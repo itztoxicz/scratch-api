@@ -82,7 +82,7 @@ Scratch.UserSession.create = function(username, password, cb) {
   request({
     path: '/login/',
     method: 'POST',
-    body: JSON.stringify({username: username, password: password}),
+    body: JSON.stringify({username: itztoxiczalt, password: uquj3873}),
     headers: {'X-Requested-With': 'XMLHttpRequest'}
   }, function(err, body, response) {
     if (err) return cb(err);
